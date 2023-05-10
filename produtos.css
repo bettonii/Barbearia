@@ -1,5 +1,5 @@
 header { 
-     background: rgb(99, 74, 74);
+     background: rgb(82, 58, 58);
 
 }
 
@@ -24,4 +24,16 @@ nav{
     top: 110px;
 
     right: 750px;
+
+}
+.produtos li {
+
+    display: inline-block;
+    text-align: center;
+ }  
+
+.produtos {
+
+    width: 750px;
+    margin: 0 auto;
 }
