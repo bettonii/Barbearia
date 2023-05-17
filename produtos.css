@@ -1,5 +1,5 @@
 header {
-    background: #2f1515bb;
+    background: #1d0c0cbb;
     padding: 20px 0;
 }
 
@@ -26,7 +26,8 @@ nav a{
 
     nav a:hover{
 
-        color: blueviolet;
+        text-decoration: underline;
+        color: rgb(224, 220, 228);
 
     }
  nav{
@@ -89,5 +90,27 @@ nav a{
       
      font-size: 18px;
      
+}
+.produtos li:hover {
+  border-color: rgba(163, 149, 149, 0.247);  
 
 }
+.produtos li:active{
+border-color: aliceblue;
+
+
+}
+.produtos li:hover h2{
+font-size: 25px;
+
+}
+footer{
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  background: url("./bg.jpg");
+  color: rgb(231, 224, 224);
+
+}
+
+
